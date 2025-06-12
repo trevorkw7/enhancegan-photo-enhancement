@@ -2,6 +2,8 @@
 
 A from-scratch re-implementation of the concepts from the 2018 paper "Aesthetic-Driven Image Enhancement by Adversarial Learning" (EnhanceGAN), adapted for transforming low-quality iPhone photos into high-quality, DSLR-style images using the DPED dataset.
 
+Google Collab: https://colab.research.google.com/drive/1AB2FgKvVBUmaUxR-z-ngoNlwDqLcnHtD?usp=sharing
+
 ## Overview
 
 This project implements a systematic, multi-phase training approach for image enhancement using GANs. The entire workflow is contained in a single Jupyter/Colab notebook that guides users through training and analysis phases.
