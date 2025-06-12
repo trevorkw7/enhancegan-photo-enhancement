@@ -18,7 +18,7 @@ class PhotoDataset(Dataset):
         self.transform  = transforms.Compose([
             transforms.Resize((size, size)),
             transforms.ToTensor(),
-            transforms.Normalize((0.5,)*3, (0.5,)*3)
+            # transforms.Normalize((0.5,)*3, (0.5,)*3)
         ])
 
     def __len__(self):
